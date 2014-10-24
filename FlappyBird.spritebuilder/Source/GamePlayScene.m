@@ -17,5 +17,9 @@
 }
 
 // put new methods here
+- (void)touchBegan:(UITouch *)touch withEvent:(UIEvent *)event {
+    // this will get called everytime the player touches the screen
+    [character flap];
+}
 
 @end
