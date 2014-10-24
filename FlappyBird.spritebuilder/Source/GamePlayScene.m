@@ -27,7 +27,7 @@
     {
         // then add a new obstacle
         [self addObstacle];
-        NSlog(@"Jeff Krencik likes penis");
+        NSLog(@"Hello World!");
         
         // reset the times
         timeSinceObstacle = 0.0f;
