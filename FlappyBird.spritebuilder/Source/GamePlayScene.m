@@ -27,7 +27,18 @@
     {
         // then add a new obstacle
         [self addObstacle];
-        NSLog(@"Hello World!");
+        
+        
+        
+       
+            UIAlertView *helloWorldAlert = [[UIAlertView alloc]
+                                            initWithTitle:@"My First App" message:@"Hello, World!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+            
+            // Display the Hello World Message
+            [helloWorldAlert show];
+        
+        
+        
         
         // reset the times
         timeSinceObstacle = 0.0f;
