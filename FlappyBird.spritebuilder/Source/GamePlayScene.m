@@ -28,18 +28,6 @@
         // then add a new obstacle
         [self addObstacle];
         
-        
-        
-       
-            UIAlertView *helloWorldAlert = [[UIAlertView alloc]
-                                            initWithTitle:@"Sweet Message" message:@"Jeff Krencik Likes Penis!" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-            
-            // Display the Hello World Message
-            [helloWorldAlert show];
-        
-        
-        
-        
         // reset the times
         timeSinceObstacle = 0.0f;
     }
